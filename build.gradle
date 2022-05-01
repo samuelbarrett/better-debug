@@ -61,10 +61,10 @@ minecraft {
             property 'forge.logging.console.level', 'debug'
 
             // Comma-separated list of namespaces to load gametests from. Empty = all namespaces.
-            property 'forge.enabledGameTestNamespaces', 'better-debug'
+            property 'forge.enabledGameTestNamespaces', 'betterdebug'
 
             mods {
-                better-debug {
+                betterdebug {
                     source sourceSets.main
                 }
             }
@@ -78,10 +78,10 @@ minecraft {
             property 'forge.logging.console.level', 'debug'
 
             // Comma-separated list of namespaces to load gametests from. Empty = all namespaces.
-            property 'forge.enabledGameTestNamespaces', 'better-debug'
+            property 'forge.enabledGameTestNamespaces', 'betterdebug'
 
             mods {
-                better-debug {
+                betterdebug {
                     source sourceSets.main
                 }
             }
@@ -106,10 +106,10 @@ minecraft {
             property 'forge.logging.console.level', 'debug'
 
             // Comma-separated list of namespaces to load gametests from. Empty = all namespaces.
-            property 'forge.enabledGameTestNamespaces', 'better-debug'
+            property 'forge.enabledGameTestNamespaces', 'betterdebug'
 
             mods {
-                better-debug {
+                betterdebug {
                     source sourceSets.main
                 }
             }
@@ -123,10 +123,10 @@ minecraft {
             property 'forge.logging.console.level', 'debug'
 
             // Specify the modid for data generation, where to output the resulting resource, and where to look for existing resources.
-            args '--mod', 'better-debug', '--all', '--output', file('src/generated/resources/'), '--existing', file('src/main/resources/')
+            args '--mod', 'betterdebug', '--all', '--output', file('src/generated/resources/'), '--existing', file('src/main/resources/')
 
             mods {
-                better-debug {
+                betterdebug {
                     source sourceSets.main
                 }
             }
@@ -170,7 +170,7 @@ dependencies {
 jar {
     manifest {
         attributes([
-                "Specification-Title"     : "better-debug",
+                "Specification-Title"     : "betterdebug",
                 "Specification-Vendor"    : "saaam",
                 "Specification-Version"   : "1", // We are version 1 of ourselves
                 "Implementation-Title"    : project.name,
